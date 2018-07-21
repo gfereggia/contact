@@ -1,0 +1,51 @@
+{
+  "name": "contact",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.11.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^6.8.0",
+    "ghooks": "1.2.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "deepcopy": "^0.6.3",
+    "object-path": "^0.11.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-http-request": "^1.0.4",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "reactstrap": "^6.3.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint --max-warnings 1 src"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
