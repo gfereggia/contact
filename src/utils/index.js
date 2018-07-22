@@ -1,5 +1,6 @@
 import objectPath from 'object-path'
 
+//Funcion para ordenar datos de la api pasando por parametro la propiedad correspondiente
 export function dynamicSort(property) {
   let sortOrder = 1
   if (property[0] === '-') {
@@ -17,6 +18,7 @@ export function dynamicSort(property) {
   }
 }
 
+//Funcion para copiar los datos del obj y pasarlo a un array pasandole como dato el indice original
 export function toObjectAssociative(array, key) {
   let object = {}
   if (!array) {
