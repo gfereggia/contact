@@ -47,7 +47,7 @@ class App extends Component {
     this.setState({ contactSelected });
 
     //Si la vista es de celular ocultamos las pantallas 
-    if (window.innerWidth < 468) {
+    if (window.innerWidth < 768) {
       this.setState({ isContenedor: true });
     }
   }
@@ -59,7 +59,7 @@ class App extends Component {
     })
 
     //Si la vista es de celular ocultamos las pantallas 
-    if (window.innerWidth < 468) {
+    if (window.innerWidth < 768) {
       this.setState({ isContenedor: false });
     }
   }
