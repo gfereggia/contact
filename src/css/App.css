@@ -142,12 +142,20 @@
 /*For cellphones*/
 @media only screen and (min-width: 320px) and (max-width: 480px){
   #star{
-        position: relative;
-        left: 255px;
+    position: relative;
+    left: 235px;
   }
 
   .imgContent{
     left: 15px;
+  }
+
+  .contactTitle{
+    left:10px;
+  }
+
+  .contactSubtitle{
+    left: 30px;
   }
 
   .contenedor{
