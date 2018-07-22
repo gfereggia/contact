@@ -122,7 +122,7 @@
   
   #star{
         position: relative;
-        left: 285px;
+        left: 283px;
   }
 
   .imgContent{
@@ -143,7 +143,7 @@
 @media only screen and (min-width: 414px) and (max-width: 767px) {  
    #star{
     position: relative;
-    left: 275px;
+    left: 273px;
   }
 
   .contactTitle{
@@ -151,7 +151,7 @@
   }
 
   .contactSubtitle{
-    left: 17px;
+    left: 15px;
   }
 
   .contenedor{
@@ -194,7 +194,8 @@
   }
 
   .contactSubtitle{
-    left: 15px;
+    font-size: 14px;
+    left: 14px;
   }
 
   .contenedor{
